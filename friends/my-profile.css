@@ -1,0 +1,34 @@
+.my-profile {
+    height: 80px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.my-profile:hover {
+    background-color: rgba(201, 201, 201, 0.384);
+}
+
+.my-profile__img {
+    height: 60px;
+    width: 60px;
+    
+}
+
+.my-profile__img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.my-profile__myname {
+    margin-left: 10px;
+    font-size: 20px;
+    display: block;
+}
+
+.my-profile__myname div {
+    margin-top: 10px;
+    font-size: 16px;
+    opacity: 0.6;
+}

@@ -1,0 +1,69 @@
+.status-button {
+    height: 75px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    align-items: center;
+    font-size: 35px;
+    background-color: rgb(226, 226, 226);
+    border-top: 1px solid rgba(196, 196, 196, 0.356);
+    justify-content: space-around;
+}
+
+.status-button a {
+    color: rgb(107, 107, 107);
+    text-decoration-line: none;
+}
+
+.status-button a:hover {
+    color: black;
+}
+
+.status-button i {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.status-button__talkstatus {
+    border-radius: 50%;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: -10px;
+    margin-top: -5px;
+    justify-content: center;
+}
+
+.status-button__comma {
+    border-radius: 50%;
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    color: white;
+    margin-left: 3px;
+    margin-top: -2px;
+    justify-content: center;
+}
+
+
+.status-button i a{
+    width: 40px;
+    height: 40px;
+    margin-left: -30px;
+    background-color: rgba(255, 0, 0, 0);
+
+}
+
+.status-button .fa-comment {
+    width: 50px;
+    height: 30px;
+    margin-left: -15px;
+    background-color: rgba(255, 0, 0, 0);
+}

@@ -1,0 +1,27 @@
+@import url(reset.css);
+@import url(status-bar.css);
+@import url(status-button.css);
+@import url(top-bar.css);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,500;1,300&family=Open+Sans:wght@500&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grey-bottom-line {
+    border-bottom: 2px solid rgba(168, 168, 168, 0.199);
+}
+
+.status {
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+    top: 0;
+}
+
+body {
+    padding-top: 95px;
+}

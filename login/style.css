@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,500;1,300&family=Open+Sans:wght@500&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.welcome-header {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.welcome-header__title {
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.welcome-header__text {
+    opacity: 0.6;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input[type=email],[type=password] {
+    padding: 18px 0px;
+    font-size: 19px;
+    opacity: 0.8;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-color: rgb(189, 189, 189);
+}
+
+#login-form input[placeholder] {
+    font-size: 20px;
+}
+
+#login-form input[type=submit] {
+    padding: 18px 0px;
+    font-size: 19px;
+    border: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#login-form input:focus {
+    outline: none;
+}
+
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}

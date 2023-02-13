@@ -1,0 +1,73 @@
+.channel-list {
+    display: block;
+}
+
+.channel-list__panel {
+    border-top: solid 1px rgba(185, 185, 185, 0.555);
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.channel-list__friends {
+    height: 47px;
+    padding: 10px;
+    display: flex;
+}
+
+.channel-list__friends:hover {
+    background-color: rgba(201, 201, 201, 0.384);
+}
+.channel-list__friends__list {
+    margin-left: 15px;
+    height: 100%;
+    width: 100%;
+    font-size: 5px;
+}
+
+.channel-list__friends__list div:first-child {
+    font-size: 15px;
+    font-weight: bold;
+    height: 50%;
+    margin-top: 3px;
+}
+
+.channel-list__friends__list div:last-child {
+    font-size: 13px;
+    height: 50%;
+    opacity: 0.5;
+}
+
+.channel-list__friends__picture {
+    margin-left: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.channel-list__friends__picture img {
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+}
+
+.channel-list__friends__info {
+    width: 100%;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.channel-list__friends__info__more {
+    opacity: 0.3;
+    margin-right: 10px;
+}
+
+.channel-list__friends__info__more .fa-chevron-right {
+    font-size: 14px;
+}

@@ -1,0 +1,43 @@
+.suggestions {
+    margin: 15px;
+}
+
+.suggestions__title {
+    font-size: 20px;
+}
+
+.suggestions__games {
+    margin: 15px;
+    display:grid; 
+    grid-gap: 4px; 
+    grid-template-columns: repeat(4, minmax(auto, 2fr));
+    justify-content: space-between;
+}
+
+.suggestions__games__app {
+    height: 100px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.suggestions__games__app div {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.suggestions__games__app div:last-child {
+    margin-top: 10px;
+    color: rgba(88, 88, 88, 0.692);
+}
+
+.suggestions__games__app:hover {
+    font-weight: bold;
+}
+
+.suggestions__games__app img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}

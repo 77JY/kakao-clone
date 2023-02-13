@@ -1,0 +1,48 @@
+body, .status {
+    background-color: rgba(186, 206, 224, 193);
+}
+
+.today-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 25px;
+    color: white;
+    font-size: 13px;
+}
+
+.text {
+    background-color: rgb(146, 164, 178);
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+
+.top-status {
+    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-status div {
+    width: 33%;
+}
+.top-status div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.top-status div:last-child {
+    display: flex;
+    justify-content: end;
+}
+
+.top-status__button i{
+    margin-right: 15px;
+    font-size: 27px;
+}
