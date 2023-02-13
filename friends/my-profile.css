@@ -30,5 +30,5 @@
 .my-profile__myname div {
     margin-top: 10px;
     font-size: 16px;
-    opacity: 0.6;
+    color: grey;
 }

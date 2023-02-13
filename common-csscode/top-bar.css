@@ -10,4 +10,9 @@
 .top-status__button i{
     margin-right: 15px;
     font-size: 27px;
+    color: rgb(56, 56, 56);
+}
+
+.top-status__button i:hover {
+    color: black;
 }

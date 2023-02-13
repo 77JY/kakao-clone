@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: end;
     font-size: 13px;
-    opacity: 0.5;
+    color: grey;
 }
 
 .channel-list__friends {
@@ -40,7 +40,7 @@
 .channel-list__friends__list div:last-child {
     font-size: 13px;
     height: 50%;
-    opacity: 0.5;
+    color: grey;
 }
 
 .channel-list__friends__picture {
@@ -64,7 +64,7 @@
 }
 
 .channel-list__friends__info__more {
-    opacity: 0.3;
+    color: grey;
     margin-right: 10px;
 }
 

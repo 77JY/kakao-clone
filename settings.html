@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="common-csscode/style.css">
+    <link rel="stylesheet" href="settings/style.css">
     <title>Document</title>
 </head>
 <body>
+  <div class="status">
     <div class="status-bar">
         <div class="status-bar__column">
           <span>No Service</span> 
@@ -25,28 +27,72 @@
         </div>
       </div>
       <div class="top-status">
-        <div><i class="fa-solid fa-chevron-left"></i></div>
+        <div><a href="more.html"><i class="fa-solid fa-chevron-left"></i></a></div>
         <div>Settings</div>
         <div class="top-status__button">
             <i class="fa-solid fa-magnifying-glass"></i>
         </div>
     </div>
-    <div class="setting-top">
-        <div class="setting-top__option">
-            <div><i class="fa-solid fa-bullhorn"></i></div>
-            <div>Notices</div>
-        </div>
-        <div class="setting-top__option">
-            <div><i class="fa-solid fa-flask-vial"></i></div>
-            <div>Kakao Lab</div>
-        </div>
-        <div class="setting-top__version">
-            <div><i class="fas fa-info-circle"></i></div>
-            <div>version</div>
-            <div>Lastest Version</div>
-        </div>
+  </div>
+  <div class="setting-top">
+    <div class="setting-top__option">
+        <div><i class="fa-solid fa-bullhorn"></i></div>
+        <div>Notices</div>
     </div>
-
-    <script src="https://kit.fontawesome.com/cdc60a5030.js" crossorigin="anonymous"></script>
+    <div class="setting-top__option">
+        <div><i class="fa-solid fa-flask-vial"></i></div>
+        <div>Kakao Lab</div>
+    </div>
+    <div class="setting-top__version">
+      <div><i class="fas fa-info-circle"></i></div>
+      <div class="setting-top__version__check">
+        <div>Version</div>
+        <div>Lastest Version</div>
+      </div>
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="setting-top">
+    <div class="setting-top__option">
+        <div><i class="fa-solid fa-lock"></i></div>
+        <div>Privacy</div>
+    </div>
+    <div class="setting-top__option">
+        <div><i class="fa-regular fa-bell"></i></div>
+        <div>Notifications</div>
+    </div>
+    <div class="setting-top__option">
+        <div><i class="fa-regular fa-user"></i></div>
+        <div>Friends</div>
+    </div>
+    <div class="setting-top__option">
+      <div><i class="fa-regular fa-comment"></i></div>
+      <div>Chats</div>
+    </div>
+    <div class="setting-top__option">
+      <div><i class="fa-solid fa-display"></i></div>
+      <div>Display</div>
+    </div> 
+    <div class="setting-top__option">
+      <div><i class="fa-solid fa-pager"></i></div>
+      <div>Themes</div>
+    </div>
+    <div class="setting-top__option">
+      <div><i class="fa-solid fa-phone"></i></div>
+      <div>Call</div>
+    </div>
+  </div>
+  <div>
+    <div class="status-button">
+      <a href="friends.html"><i class="fa-solid fa-user"></i></a>
+      <a href="chats.html"><i class="fa-regular fa-comment"><div class="status-button__talkstatus">1</div></i></a>
+      <a href="find.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+      <a href="more.html"><i class="fa-solid fa-ellipsis"></i></a>
+    </div>
+  </div>  
+<div id="no-mobile">
+    <span>Your screen is too big !</span>
+</div>
+  <script src="https://kit.fontawesome.com/cdc60a5030.js" crossorigin="anonymous"></script>
 </body>
 </html>

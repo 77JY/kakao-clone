@@ -2,6 +2,7 @@
 @import url(status-bar.css);
 @import url(status-button.css);
 @import url(top-bar.css);
+@import url(no-mobile.css);
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,500;1,300&family=Open+Sans:wght@500&display=swap');
 
 body {
@@ -24,4 +25,8 @@ body {
 
 body {
     padding-top: 95px;
+}
+
+a {
+    color: black;
 }

@@ -20,7 +20,7 @@ body {
 }
 
 .welcome-header__text {
-    opacity: 0.6;
+    color: grey;
     font-size: 19px;
     font-weight: 500;
     margin-bottom: 80px;
@@ -35,7 +35,7 @@ body {
 #login-form input[type=email],[type=password] {
     padding: 18px 0px;
     font-size: 19px;
-    opacity: 0.8;
+    color: black;
     border: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     border-color: rgb(189, 189, 189);

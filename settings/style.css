@@ -1,0 +1,52 @@
+body {
+    padding-top: 110px;
+}
+
+.setting-top {
+    display: block;
+}
+
+.setting-top__option {
+    display: flex;
+    margin: 15px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(175, 173, 173, 0.486);
+    font-size: 30px
+}
+
+.setting-top__version {
+    display: flex;
+    margin: 15px;
+    font-size: 30px;
+
+}
+
+.setting-top i {
+    width: 60px;
+    text-align: center;
+    color: rgb(94, 94, 94);
+}
+
+.setting-top__version__check {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.setting-top__version__check div:last-child {
+    font-size: 23px;
+    color: grey;
+    display: block;
+    margin-top: 7px;
+}
+
+.setting-top div div:nth-child(2) {
+    margin-left: 15px;
+}
+
+.line {
+    height: 2px;
+    background-color: rgba(158, 158, 158, 0.349);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

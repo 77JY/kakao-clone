@@ -27,8 +27,8 @@
 .my-profile__myname div {
     margin-top: 15px;
     font-size: small;
-    opacity: 0.6;
     font-size: 18px;
+    color: rgba(128, 128, 128, 0.596);
 }
 
 .my-profile .fa-message {
